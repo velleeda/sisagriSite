@@ -8,11 +8,9 @@ export function Login() {
   return (
     <>
       <div className={styles.container}>
-        <img
-          className={styles.logoSisagri}
-          src={logo}
-          alt="Logo from the Sisagri company"
-        />
+        <div className={styles.logoSisagri}>
+          <img src={logo} alt="Logo from the Sisagri company" />
+        </div>
 
         <div className={styles.formContainer}>
           <h1>Acesse a sua conta</h1>

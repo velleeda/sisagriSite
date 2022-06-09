@@ -1,12 +1,17 @@
 .container {
   display: flex;
   position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .logoSisagri {
-  max-width: calc(100vw - 30px);
-  height: auto;
-  margin: 75px 0 0 175px;
+  height: 214px;
+  margin: 67.5px 0 0 125px;
+
+  img {
+    height: 184px;
+  }
 }
 
 .formContainer {
@@ -49,7 +54,7 @@
     border: 2px solid #dbdbdb;
     border-radius: 10px;
     height: 45px;
-    
+
     padding-left: 45px;
     font-family: "Poppins";
     font-weight: 300;
@@ -115,7 +120,9 @@
   margin: 1.5rem 0;
   width: 100%;
   text-align: right;
+
   a {
+    margin: 0 8%;
     font-size: 14px;
     line-height: 140%;
     /* identical to box height, or 20px */
